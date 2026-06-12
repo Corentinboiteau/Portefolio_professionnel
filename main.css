@@ -464,5 +464,37 @@ audio {
   }
 }
 
+.video-project {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 0.9fr 1.4fr;
+  gap: 28px;
+  align-items: center;
+  border-color: rgba(214, 154, 84, 0.35);
+}
+
+.project-category {
+  color: #d69a54 !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-bottom: 12px !important;
+}
+
+.video-wrapper video {
+  width: 100%;
+  display: block;
+  border-radius: 22px;
+  background: #15120f;
+  border: 1px solid rgba(244, 234, 220, 0.12);
+}
+
+@media (max-width: 900px) {
+  .video-project {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 
